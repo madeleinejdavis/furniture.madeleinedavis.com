@@ -78,15 +78,81 @@ footer img {
 
 .info a {
 	text-decoration: none;
-	color: #ff61c1;
+	color: #87a2c1;
 }
 
 /*----------------------------------------------------------------------------- 
-=WORK.HTML  
+=CAROUSEL.HTML  
 -----------------------------------------------------------------------------*/
 
 .banner {
 	padding-bottom: 50px;
 	padding-right: 50px;
 }
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.carousel-control .icon-prev,
+.carousel-control .icon-next,
+.carousel-control .glyphicon-menu-left,
+.carousel-control .glyphicon-menu-right {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+  margin-top: -10px;
+}
+.carousel-control .icon-prev,
+.carousel-control .glyphicon-menu-left {
+  left: 50%;
+  margin-left: -10px;
+}
+.carousel-control .icon-next,
+.carousel-control .glyphicon-menu-right {
+  right: 50%;
+  margin-right: -10px;
+}
+
+.col-md-4 {
+	margin-top: -20px;
+}
+
+.col-md-4 h6 {
+	font-style: italic;
+	font-size: 10px;
+}
+
+/*----------------------------------------------------------------------------- 
+=WORK.HTML  
+-----------------------------------------------------------------------------*/
+.work {
+	width: 90%;
+	vertical-align: center;
+	padding-bottom: 50px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.work img {
+	width: 99%;
+	padding-bottom: 50px;
+}
+
+.work h6 {
+	margin-left: 50px;
+	font-style: italic;
+	font-size: 10px;
+}
+
+.work h1 {
+	font-size: 14px;
+	margin-top: 0px;
+	margin-left: 50px;
+}
+
+
+
 
