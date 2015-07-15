@@ -124,34 +124,7 @@ footer img {
 	font-size: 10px;
 }
 
-/*----------------------------------------------------------------------------- 
-=WORK.HTML  
------------------------------------------------------------------------------*/
-.work {
-	width: 90%;
-	vertical-align: center;
-	padding-bottom: 50px;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-.work img {
-	width: 99%;
-	padding-bottom: 50px;
-}
-
-.work h6 {
-	margin-left: 50px;
-	font-style: italic;
-	font-size: 10px;
-}
-
-.work h1 {
-	font-size: 14px;
-	margin-top: 0px;
-	margin-left: 50px;
-}
 
 
 
